@@ -15,8 +15,8 @@ app.use(express.json());
 
 // Enable CORS for all routes
 app.use(cors());
-app.get('/',(req,res)=>{
-  res.status(200).send('<h1>Hello Azeem cake</h1>')
+app.get('/',(req, res)=>{
+  res.status(200).send('<h1>Hello Ateeq</h1>')
 })
 app.use('/', userRoutes)
 app.use('/history', historyRoutes)
